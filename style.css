@@ -92,3 +92,16 @@ li:nth-of-type(odd) {
 li:nth-of-type(even) {
     background-color: #ffeace;
 }
+
+/* js interactions */
+
+.list-checkbox-checked {
+    background-image: url('done_FILL1_wght400_GRAD0_opsz24.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list-item-checked {
+    text-decoration: line-through;
+}
