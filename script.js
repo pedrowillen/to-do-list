@@ -17,5 +17,8 @@ doneBtn.addEventListener('click', function (e) {
     let inputText = input.value;
 
     list.innerHTML += `<li><div onclick="checkedList(event)" class="list-checkbox"></div>${inputText}</li>`;
+
+    input.value = '';
+    input.focus();
 });
 
