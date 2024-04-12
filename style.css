@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E6DFD3;
+    font-family: "M PLUS 1 Code", monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.container {
+    background-color: rgb(255, 254, 252);
+    width: 888px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.13);
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-decoration: line-through;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 35px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+button {
+    height: 35px;
+    width: 35px;
+    border: 1px solid black;
+    background-color: #eee;
+    color: #eee;
+    background-image: url('done_FILL1_wght400_GRAD0_opsz24.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.list-checkbox {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    margin-right: 15px;
+    border: 1px solid #6d6555;
+}
+
+.list-checkbox:hover {
+    cursor: pointer;
+    background-color: #ebebeb;
+    border: 1px solid #2c2c2c;
+}
+
+ol {
+    margin-top: 20px;
+    list-style: none;
+    border: 1px dashed #222222;
+}
+
+li {
+    padding: 8px;
+    font-size: 18px;
+}
+
+li:nth-of-type(odd) {
+    background-color: #ffd690;
+}
+
+li:nth-of-type(even) {
+    background-color: #ffeace;
+}
