@@ -52,7 +52,7 @@ button {
     border: 1px solid black;
     background-color: #eee;
     color: #eee;
-    background-image: url('done_FILL1_wght400_GRAD0_opsz24.png');
+    background-image: url('images/done_FILL1_wght400_GRAD0_opsz24.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,7 +96,7 @@ li:nth-of-type(even) {
 /* js interactions */
 
 .list-checkbox-checked {
-    background-image: url('done_FILL1_wght400_GRAD0_opsz24.png');
+    background-image: url('images/done_FILL1_wght400_GRAD0_opsz24.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
