@@ -7,9 +7,15 @@ let list = document.querySelector('#list');
 function checkedList(event) {
     event.preventDefault();
     let clickedElement = event.target;
+    let clickedElementParent = clickedElement.parentNode;
 
-    clickedElement.classList.add('list-checkbox-checked');
-    clickedElement.parentNode.classList.add('list-item-checked');
+    if (clickedElement.classList.contains('list-checkbox-checked')) {
+        clickedElementParent.classList.remove('list-item-checked');
+        clickedElement.classList.remove('list-checkbox-checked')
+    } else {
+        clickedElement.classList.add('list-checkbox-checked');
+        clickedElementParent.classList.add('list-item-checked');
+    }
 }
 
 doneBtn.addEventListener('click', function (e) {
@@ -21,4 +27,3 @@ doneBtn.addEventListener('click', function (e) {
     input.value = '';
     input.focus();
 });
-
