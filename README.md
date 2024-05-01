@@ -1,5 +1,5 @@
 # TO DO LIST
-> Status: Developing (80%) ⚠️
+> Status: Developing (60%) ⚠️
 > 
 Simple To-do List application built using JavaScript, CSS and HTML. It utilizes localStorage to persist to-do items across browser sessions, providing a user-friendly experience for managing tasks.
 
